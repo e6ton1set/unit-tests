@@ -1,4 +1,5 @@
-package lection1;/*import static org.assertj.core.api.Assertions.*;*/
+package lection1;
+import static org.assertj.core.api.Assertions.*;
 
 public class CalculatorTest {
     public static void main(String[] args) {
@@ -24,7 +25,7 @@ public class CalculatorTest {
         assert 14 == lection1.Calculator.calculation(2, 7, '*');
         assert 10 == lection1.Calculator.calculation(100, 10, '/');*/
 
-/*        // Проверка базового функционала с целыми числами, с использованием утверждений
+        // Проверка базового функционала с целыми числами, с использованием утверждений
         AssertJ:
         assertThat(Calculator.calculation(2, 6, '+')).isEqualTo(8);
         assertThat(Calculator.calculation(2, 2, '-')).isEqualTo(0);
@@ -33,7 +34,7 @@ public class CalculatorTest {
 
         // Проверка ожидаемого исключения
         assertThatThrownBy( () -> Calculator.calculation(8, 4, '_')
-        ).isInstanceOf(IllegalStateException.class);*/
+        ).isInstanceOf(IllegalStateException.class);
 
 /*        // Примеры из документации
         assertThat(frodo.getName()).isEqualTo("Frodo");
