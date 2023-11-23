@@ -1,4 +1,4 @@
-package seminar2.tak1;
+package seminar2.task1;
 
 public class MathUtils {
 

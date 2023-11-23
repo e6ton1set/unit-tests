@@ -1,4 +1,4 @@
-package seminar2.tak2;
+package seminar2.task2;
 
 import java.util.regex.Pattern;
 
