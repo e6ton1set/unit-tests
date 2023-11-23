@@ -157,4 +157,19 @@ public class CalculatorTest {
         int[] actual = {1, 2, 3};
         assertArrayEquals(expected, actual);
     }
+
+    @Test
+    @DisplayName("Проверка корректного расчёта скидки")
+    void testCalcDiscount(){
+        assertEquals(3919.88, calculator.calcDiscount(5000, 21.6, true), .99);
+    }
+
+    @Test
+    @DisplayName("Проверка корректного расчёта скидки")
+    void testIncorrectCalcDiscount(){
+        assertThrows(ArithmeticException.class, () -> calculator.calcDiscount(1000, 0, true));
+        assertThrows(ArithmeticException.class, () -> calculator.calcDiscount(15999, 28000, true));
+        assertThrows(ArithmeticException.class, () -> calculator.calcDiscount(99999, 25, false));
+    }
+
 }
