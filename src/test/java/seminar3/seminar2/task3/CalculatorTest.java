@@ -1,4 +1,4 @@
-package seminar2.task3;
+package seminar3.seminar2.task3;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -6,6 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import seminar2.task3.Calculator;
 
 import static org.junit.jupiter.api.Assertions.*;
 

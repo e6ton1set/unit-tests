@@ -1,8 +1,9 @@
-package seminar2.task2;
+package seminar3.seminar2.task2;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import seminar2.task2.EmailValidator;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -20,5 +20,4 @@ public class MathUtils {
         }
         return (double) a / b;
     }
-
 }

@@ -1,9 +1,10 @@
-package seminar2.task1;
+package seminar3.seminar2.task1;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import seminar2.task1.MathUtils;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -45,9 +46,8 @@ public class MathUtilsTest {
 
         @Test
         @DisplayName("Проверка существования пустого экземпляра класса")
-        void divide() {
-            mathUtils = null;
-            assertNull(mathUtils);
-        }
+            void divide() {
+                assertFalse(15 != mathUtils.divide(200,10));
+            }
     }
 
