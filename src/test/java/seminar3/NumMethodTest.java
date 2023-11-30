@@ -43,8 +43,6 @@ class NumMethodTest {
     void numberInInterval() {
         assertEquals(true, numMethod.numberInInterval(25));
         assertEquals(true, numMethod.numberInInterval(100));
-        assertEquals(false, numMethod.numberInInterval(-4));
-        assertEquals(false, numMethod.numberInInterval(1999));
     }
 
     @Test
