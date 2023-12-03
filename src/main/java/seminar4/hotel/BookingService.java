@@ -1,4 +1,4 @@
-package seminars.fourth.hotel;
+package seminar4.hotel;
 
 public class BookingService {
     private HotelService hotelService;

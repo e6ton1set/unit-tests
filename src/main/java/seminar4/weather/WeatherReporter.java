@@ -1,4 +1,4 @@
-package seminars.fourth.weather;
+package seminar4.weather;
 
 public class WeatherReporter {
     private WeatherService weatherService;

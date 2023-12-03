@@ -1,4 +1,4 @@
-package seminars.fourth.card;
+package seminar4.card;
 
 class PaymentFormTest {
 

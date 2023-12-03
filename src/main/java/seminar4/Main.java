@@ -1,18 +1,17 @@
-package seminars.fourth;
+package seminar4;
 
-import seminars.fourth.book.Book;
-import seminars.fourth.book.BookRepository;
-import seminars.fourth.book.BookService;
-import seminars.fourth.book.InMemoryBookRepository;
-import seminars.fourth.database.DataProcessor;
-import seminars.fourth.database.Database;
-import seminars.fourth.hotel.BookingService;
-import seminars.fourth.hotel.HotelService;
-import seminars.fourth.message.MessageService;
-import seminars.fourth.message.NotificationService;
-import seminars.fourth.weather.WeatherReporter;
-import seminars.fourth.weather.WeatherService;
-
+import seminar4.book.Book;
+import seminar4.book.BookRepository;
+import seminar4.book.BookService;
+import seminar4.book.InMemoryBookRepository;
+import seminar4.database.DataProcessor;
+import seminar4.database.Database;
+import seminar4.hotel.BookingService;
+import seminar4.hotel.HotelService;
+import seminar4.message.MessageService;
+import seminar4.message.NotificationService;
+import seminar4.weather.WeatherReporter;
+import seminar4.weather.WeatherService;
 import java.util.List;
 
 public class Main {

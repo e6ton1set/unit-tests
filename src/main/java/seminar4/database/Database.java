@@ -1,4 +1,4 @@
-package seminars.fourth.database;
+package seminar4.database;
 
 import java.util.ArrayList;
 import java.util.List;
