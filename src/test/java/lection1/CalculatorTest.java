@@ -1,4 +1,6 @@
 package lection1;
+import lection4.lection1.Calculator;
+
 import static org.assertj.core.api.Assertions.*;
 
 public class CalculatorTest {
@@ -6,16 +8,16 @@ public class CalculatorTest {
         // Всё ещё ручное тестирование, которое выбрасывает исключения.
         // Например, ошибка может быть семантическая, поэтому тест ничего не покажет.
 
-        if (8 != lection1.Calculator.calculation(2, 6, '+')) {
+        if (8 != Calculator.calculation(2, 6, '+')) {
             throw new AssertionError("Ошибка в методе");
         }
-        if (0 != lection1.Calculator.calculation(2, 2, '-')) {
+        if (0 != Calculator.calculation(2, 2, '-')) {
             throw new AssertionError("Ошибка в методе");
         }
-        if (14 != lection1.Calculator.calculation(2, 7, '*')) {
+        if (14 != Calculator.calculation(2, 7, '*')) {
             throw new AssertionError("Ошибка в методе");
         }
-        if (2 != lection1.Calculator.calculation(100, 50, '/')) {
+        if (2 != Calculator.calculation(100, 50, '/')) {
             throw new AssertionError("Ошибка в методе");
         }
 
